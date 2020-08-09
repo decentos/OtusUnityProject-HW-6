@@ -2266,6 +2266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visual: {fileID: 223243735}
   moveForce: 1
+  jumpForce: 2
 --- !u!1 &1056826877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,7 +3157,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1838912807}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 938712750}
+        m_MethodName: Jump
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1838912807
 MonoBehaviour:
   m_ObjectHideFlags: 0

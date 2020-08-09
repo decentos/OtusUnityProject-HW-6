@@ -5,14 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    bool isLose;
     public CanvasGroup logicButtonsCanvasGroup;
     public CanvasGroup playerLoseCanvasGroup;
     public Character character;
 
     void Start()
     {
-        isLose = false;
         Utility.SetCanvasGroupEnabled(playerLoseCanvasGroup, false);
     }
 

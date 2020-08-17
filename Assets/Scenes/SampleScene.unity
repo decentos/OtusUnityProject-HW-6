@@ -851,7 +851,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 780591248e99643e5a3940916eec116c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1898,7 +1898,7 @@ Tilemap:
       - {fileID: 21300000, guid: c8db2ccc4e419ea4aac7a6d44fefcf39, type: 3}
       - {fileID: 21300000, guid: 3329571b1b8c0d34b83f9175eec19727, type: 3}
       - {fileID: 21300000, guid: 2b9c729e026b0514b8dde1680d8a7e90, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -2, y: -6, z: 0}

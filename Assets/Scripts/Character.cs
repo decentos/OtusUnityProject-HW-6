@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
 {
     public Transform visual;
     public float moveForce;
+    public float jumpForce;
 
     Rigidbody2D rigidBody2D;
     TriggerDetector triggerDetector;
@@ -31,6 +32,12 @@ public class Character : MonoBehaviour
     {
         if (triggerDetector.inTrigger)
             rigidBody2D.AddForce(new Vector2(moveForce, 0.0f), ForceMode2D.Impulse);
+    }
+
+        public void Jump()
+    {
+        if (triggerDetector.inTrigger)
+            rigidBody2D.AddForce(new Vector2(0.0f, jumpForce), ForceMode2D.Impulse);
     }
 
     // Update is called once per frame
